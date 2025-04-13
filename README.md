@@ -1,11 +1,11 @@
-# 📊 Analisis Profitabilitas dan Optimasi Diskon: Big Ol Database
+# Analisis Profitabilitas dan Optimasi Diskon: Big Ol Database
 
-## 📝 Deskripsi Singkat
+## Deskripsi Singkat
 Notebook ini berisi analisis mendalam terhadap data penjualan dari produk *Big Ol Database*. Fokus utama adalah memahami pengaruh strategi diskon terhadap **profitabilitas**, **sales per unit**, dan **total profit**. Dengan menggabungkan analisis statistik dan insight bisnis, notebook ini menghasilkan serangkaian **rekomendasi strategis berbasis data** untuk meningkatkan efisiensi dan profit.
 
 ---
 
-## 📌 Tujuan Proyek
+## Tujuan Proyek
 - Mengidentifikasi pola diskon yang berdampak negatif terhadap profit margin.
 - Menguji pengaruh diskon terhadap sales menggunakan metode statistik.
 - Menyusun rekomendasi pricing dan strategi penjualan berbasis korelasi dan uji signifikansi.
@@ -13,7 +13,7 @@ Notebook ini berisi analisis mendalam terhadap data penjualan dari produk *Big O
 
 ---
 
-## ⚙️ Tools & Library
+## Tools & Library
 Notebook ini dibangun menggunakan Python dan beberapa library berikut:
 - `pandas` – manipulasi dan analisis data
 - `numpy` – perhitungan numerik
@@ -23,7 +23,7 @@ Notebook ini dibangun menggunakan Python dan beberapa library berikut:
 
 ---
 
-## 🔬 Metodologi Analisis
+## Metodologi Analisis
 1. **Eksplorasi Data Historis**: Melihat tren diskon, margin, dan volume penjualan.
 2. **Korelasi**: Mengukur hubungan antar variabel (misalnya diskon vs. margin).
 3. **Uji Kruskal-Wallis**: Menguji pengaruh kategori diskon terhadap sales per unit.
@@ -33,7 +33,7 @@ Notebook ini dibangun menggunakan Python dan beberapa library berikut:
 
 ---
 
-## 📈 Hasil Utama
+## Hasil Utama
 - Terdapat **korelasi negatif kuat** antara diskon dan profit margin (-0,90).
 - Diskon >50% menyebabkan penurunan signifikan pada sales per unit hingga 56%.
 - Uji Kruskal-Wallis menunjukkan kategori diskon **berpengaruh signifikan** terhadap penjualan (p-value = 0.0288).
@@ -41,7 +41,7 @@ Notebook ini dibangun menggunakan Python dan beberapa library berikut:
 
 ---
 
-## ✅ Rekomendasi Bisnis
+## Rekomendasi Bisnis
 - **Minimalkan Diskon Tinggi**, khususnya >50%, karena tidak efektif secara penjualan dan margin.
 - **Optimalkan Diskon Rendah (0–10%)** untuk hasil maksimal.
 - **Terapkan Data-Driven Pricing**, terutama pada Q1 dan Q4 yang rawan rugi.
@@ -50,7 +50,7 @@ Notebook ini dibangun menggunakan Python dan beberapa library berikut:
 
 ---
 
-## 📂 Struktur Notebook
+## Struktur Notebook
 ```text
 ├── Data Cleaning & Preparation
 ├── Exploratory Data Analysis
