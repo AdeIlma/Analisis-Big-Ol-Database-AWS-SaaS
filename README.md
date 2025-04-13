@@ -1,7 +1,3 @@
-Berikut adalah versi yang diperbaiki dan disusun secara profesional untuk README notebook `coba.ipynb` milikmu:
-
----
-
 # 📊 Analisis Profitabilitas dan Optimasi Diskon: Big Ol Database
 
 ## 📝 Deskripsi Singkat
